@@ -7,6 +7,12 @@ layout: default
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
+    <li>
+      <span class="post-meta">フェードイン・フェードアウトサンプル</span>
+      <h2>
+        <a class="post-link" href="{{ "/samples/unity/FadeInOutTest" | prepend: site.baseurl }}">フェードイン・フェードアウトサンプル</a>
+      </h2>
+    </li>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
